@@ -1,3 +1,78 @@
-h1 {
-  color: aqua;
+/* Project CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.sidebar {
+  display: grid;
+  justify-content: start;
+  grid-row: 1/4;
+  background-color: rgb(0, 157, 255);
+  padding-left: 15px;
+  color: white;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.search {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: red;
+}
+
+.search .bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.search .name {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0px;
+}
+
+.profile {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: red;
+}
+
+.profile > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.profile > div + div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: chartreuse;
+}
+
+.article {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  border: 1px solid black;
+  height: 150px;
+}
+
+.trend ul {
+  list-style: none;
 }
