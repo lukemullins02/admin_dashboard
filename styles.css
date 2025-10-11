@@ -86,19 +86,54 @@ li > img {
 
 .search {
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  background-color: red;
+  grid-template-columns: 3fr 1fr;
+  background-color: white;
+  padding: 10px 30px 0 25px;
 }
+
+/* .main {
+  display: grid;
+  grid-template-rows: 1fr 1fr 12fr;
+} */
 
 .search .bar {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 0.5fr 20fr;
+}
+
+form {
+  width: 550px;
+  align-items: center;
+}
+
+label {
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+.search .bar > img {
+  height: 22px;
+  width: 22px;
+  padding-top: 2px;
+}
+
+.search .bar [type="text"] {
+  border: none;
+  border-radius: 10px;
+  width: 500px;
+  height: 25px;
+  background-color: rgb(229, 229, 229);
+  padding-left: 5px;
 }
 
 .search .name {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 0px;
+  grid-template-columns: 1fr 1fr 2fr;
+}
+
+.search .name > div > img {
+  height: 22px;
+  width: 22px;
 }
 
 .profile {
