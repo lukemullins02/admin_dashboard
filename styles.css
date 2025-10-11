@@ -5,12 +5,18 @@
 
 li {
   display: grid;
-  grid-template-columns: 20px 20px;
+  grid-template-columns: 50px 50px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+span {
+  padding-top: 10px;
 }
 
 li > img {
-  height: 90%;
-  width: 90%;
+  height: 20px;
+  width: 20px;
   align-self: center;
   filter: brightness(0) invert(1);
 }
@@ -25,15 +31,15 @@ li > img {
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 4.5fr;
 }
 
 .sidebar {
-  padding-top: 25px;
+  padding-top: 10px;
   display: grid;
   grid-row: 1/4;
   background-color: rgb(0, 157, 255);
-  padding-left: 15px;
+  padding-left: 10px;
   grid-template-rows: 1fr 1fr;
   grid-column: 1/2;
   color: white;
@@ -46,13 +52,16 @@ li > img {
 }
 
 .sidebar .top > p {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   display: grid;
-  grid-template-columns: 20px 20px;
+  grid-template-columns: 50px 50px;
+  gap: 8px;
 }
 
 .sidebar .top > p > img {
   filter: brightness(0) invert(1);
+  height: 3rem;
+  width: 3rem;
 }
 
 .sidebar .bottom {
@@ -62,6 +71,7 @@ li > img {
 .sidebar .top > div {
   display: grid;
   gap: 60px;
+  padding-left: 5px;
 }
 
 .sidebar .top > div > ul {
