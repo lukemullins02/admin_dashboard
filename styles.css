@@ -256,3 +256,8 @@ label {
 .announcement > *:nth-child(-n + 2) {
   border-bottom: solid rgb(218, 218, 218);
 }
+
+.trend > h3 {
+  font-weight: 550;
+  padding-bottom: 13px;
+}
