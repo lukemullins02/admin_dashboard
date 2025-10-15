@@ -261,3 +261,32 @@ label {
   font-weight: 550;
   padding-bottom: 13px;
 }
+
+.trend > div > img {
+  height: 65px;
+  width: 65px;
+  padding-right: 5px;
+}
+
+.trend > div {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  background-color: white;
+  padding-left: 10px;
+  border-radius: 5px;
+  padding-top: 10px;
+}
+
+.trend > div > div {
+  align-self: center;
+}
+
+.username {
+  font-size: 0.9rem;
+  padding-bottom: 3px;
+}
+.desc {
+  font-size: 0.75rem;
+  color: gray;
+  font-weight: 400;
+}
